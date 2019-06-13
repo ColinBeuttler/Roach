@@ -1,5 +1,14 @@
-.mainheader{
-    font-size: 80%;
+body, html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+
+.parallax{
+    background-image: URL ("./img/shutterstock_163180895.jpg");
+    height: 500px;
     text-align: center;
-    /* text-decoration-color: */
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
 }
