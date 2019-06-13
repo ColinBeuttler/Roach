@@ -4,10 +4,10 @@ body, html {
   }
 
 .parallax{
-    background-image: URL ("./img/shutterstock_163180895.jpg");
+    background-image:"./img/shutterstock_163180895.jpg";
     height: 500px;
     text-align: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;;
