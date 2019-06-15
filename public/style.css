@@ -3,12 +3,34 @@ body, html {
     scroll-behavior: smooth;
   }
 
-.parallax{
-    background-image:"./img/shutterstock_163180895.jpg";
-    height: 500px;
+.header{
+    height: 50%;
+    width: 120%;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;;
+
+  }
+
+
+.parallax{
+    background-image: url("../images/castlebackground.jpg");
+    height: 100%;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;;
+}
+  
+.parallax2{
+  /* background-image: url(); */
+  height: 100%;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;;
 }
