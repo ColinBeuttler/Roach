@@ -5,7 +5,7 @@ body, html {
 
 .header{
     height: 50%;
-    width: 120%;
+    width: 100%;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
@@ -16,7 +16,7 @@ body, html {
 
 
 .parallax{
-    background-image: url("../images/castlebackground.jpg");
+    background-image: url("./images/castlebackground.jpg");
     height: 100%;
     text-align: center;
     background-attachment: fixed;
@@ -33,4 +33,4 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;;
-}
+} 
