@@ -4,7 +4,9 @@ $(window).scroll(function(){
 })
 function parallax(){
    
-    var wScroll =$(window).scrollTop();
+    var imgPos =$(window).scrollTop();
+    
+    $(".parallax").css("transform", 'translateY(0px,-' + imgPos/2+'%)');
 
-    console.log("hello world")
 }
+

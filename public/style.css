@@ -4,25 +4,24 @@ body, html {
   }
 
 .header{
-    height: 50%;
+    height: 10%;
     width: 100%;
     text-align: center;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;;
-
+    color: #eeeeee;
+    font-size: 300%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
 
 
 .parallax{
-    background-image: url("./images/lego_puzzle_details_126260_1920x1080.jpg");
-    height: 100%;
+    background-image: url("./images/castlebackground.jpg");
+    height: 220%;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;;
+    transform: translateY(-50%,-50%);
 }
   
 .parallax2{
