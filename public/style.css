@@ -46,6 +46,10 @@ body, html {
 } 
 
 .textbody{
-    /* position: absolute;
-    z-index: +1; */
+    margin-top:20px;
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    font-family:'Open Sans' sans-serif;
+    color:#666;
 }
