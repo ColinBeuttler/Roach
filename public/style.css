@@ -16,7 +16,7 @@ body, html {
 
 
 .parallax{
-    background-image: url("./images/castlebackground.jpg");
+    background-image: url("./images/lego_puzzle_details_126260_1920x1080.jpg");
     height: 100%;
     text-align: center;
     background-attachment: fixed;
@@ -26,7 +26,7 @@ body, html {
 }
   
 .parallax2{
-  /* background-image: url(); */
+  background-image: url("./images/JUN15_18_000037066274.jpg");
   height: 100%;
   text-align: center;
   background-attachment: fixed;
