@@ -6,7 +6,9 @@ function parallax(){
    
     var imgPos =$(window).scrollTop();
     
-    $(".header").css("transform", 'translateX(0px,-' + imgPos/2+'%)');
+    $(".header").css("transform", 'translate(0px,' + imgPos/5+'%)');
+    $(".parallax").scroll(function (e) {
+        parallax();
 
-}
+})};
 

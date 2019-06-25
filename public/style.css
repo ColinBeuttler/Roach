@@ -5,28 +5,38 @@ body, html {
   }
 
 .header{
-    height: 10%;
+    height: 25%;
     width: 100%;
     text-align: center;
     color: #eeeeee;
     font-size: 300%;
+    position: absolute;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
   }
 
 
 .parallax{
     background-image: url("./images/castlebackground.jpg");
-    height: 220%;
-    text-align: center;
+    width:90%;
+    height:220%;
+   
+    margin:0 auto;
+    margin-top:150px;
+    text-align:center;
+    color:#fff;
+    font-family:'Open Sans' sans-serif;
+    background-repeat: no-repeat;
+    /* text-align: center;
     background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
+    
     background-size: cover;
-    transform: translateY(-50%,-50%);
+    transform: translateY(-50%,-50%); */ 
 }
   
 .parallax2{
-  /* background-image: url(); */
+  background-image: url("./images/JUN15_18_000037066274.jpg");
   height: 100%;
   text-align: center;
   background-attachment: fixed;
@@ -34,3 +44,8 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;;
 } 
+
+.textbody{
+    /* position: absolute;
+    z-index: +1; */
+}
