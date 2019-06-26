@@ -17,32 +17,29 @@ body, html {
 
 
 .parallax{
-    background-image: url("./images/castlebackground.jpg");
+    background: url("./images/castlebackground.jpg");
     width:90%;
     height:220%;
    
     margin:0 auto;
-    margin-top:150px;
+    /* margin-top:150px; */
     text-align:center;
     color:#fff;
     font-family:'Open Sans' sans-serif;
     background-repeat: no-repeat;
-    /* text-align: center;
-    background-attachment: fixed;
-    background-position: center;
-    
     background-size: cover;
-    transform: translateY(-50%,-50%); */ 
+    /* transform: translateY(-50%,-50%);  */
 }
   
 .parallax2{
   background-image: url("./images/JUN15_18_000037066274.jpg");
   height: 100%;
   text-align: center;
-  background-attachment: fixed;
+  /* background-attachment: scroll; */
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;;
+  background-size: cover;
+  
 } 
 
 .textbody{
@@ -52,4 +49,5 @@ body, html {
     text-decoration:none;
     font-family:'Open Sans' sans-serif;
     color:#666;
+    padding-top: 10%;
 }
