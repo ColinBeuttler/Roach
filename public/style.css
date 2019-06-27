@@ -12,6 +12,19 @@ body, html {
     font-size: 300%;
     position: absolute;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 30%;
+    
+  }
+
+  .header1{
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    color: #eeeeee;
+    font-size: 300%;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 2%;
     
   }
 
@@ -43,11 +56,11 @@ body, html {
 } 
 
 .textbody{
-    margin-top:20px;
+    margin-top:10%;
     display:block;
     text-align:center;
     text-decoration:none;
     font-family:'Open Sans' sans-serif;
     color:#666;
-    padding-top: 10%;
+    padding-top: 20%;
 }

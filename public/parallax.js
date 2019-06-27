@@ -4,10 +4,11 @@ $(window).scroll(function(){
 })
 function parallax(){
    
-    var imgPos =$(window).scrollTop()+1;
+    var imgPos =$(window).scrollTop();
     
-    $(".header").css("transform", 'translate(0px,' + imgPos/5+'%)');
-    $(".textbody").css("transform", 'translate(0px,-' + imgPos/8+'%)');
+    $(".header").css("transform", 'translate(0px,-' + imgPos/5+'%)');
+    $(".header1").css("transform", 'translate(0px,-' + imgPos/2+'%)');
+    $(".textbody").css("transform", 'translate(0px,-' + imgPos/15+'%)');
 
 };
 
